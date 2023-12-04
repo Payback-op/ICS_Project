@@ -20,7 +20,6 @@ struct Patient {
     struct Date admissionDate;
     int isdischarge;
     struct Doctor assignedDoctor;
-    int patientID;
 };
 
 struct Patient patients[100];
